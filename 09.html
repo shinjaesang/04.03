@@ -6,17 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
+        #t1{
             width: 250px;
             height: 250px;
             background-color: blanchedalmond;
             padding: 50px;
             margin: 100px;
             overflow: auto;
-        /* hidden scroll auto */}
+            /* hidden scroll auto */
+            border: 7px double purple;
+            /* 두께(굵기) 선의 종류(solid dotted dashed double) 색상 */
+            }
+        #t2{
+            width: 200px;
+            height: 200px;
+            margin-left: 50px;
+            /* margin-right: 0 50px 0 50px; */
+            padding: 0 20px 0 20px;
+            border: 5px dotted blue;
+        }
     </style>
 </head>
 <body>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+    <div id="t1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+    <div id="t2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
 </body>
 </html>
